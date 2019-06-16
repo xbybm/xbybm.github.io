@@ -1,3 +1,66 @@
 Hello DuDu !
 嘟嘟最可爱！
 给嘟嘟吹吹圆脑袋啦 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>嘟嘟</title>
+    <style>
+        body{margin:0}
+        .left{float:left}
+        .right{float:right}
+
+
+        .w{width:900px;margin:0 auto;}
+        .pg-header{height:60px;width:100%;background-color:#2459a2;color:white;
+                           position:fixed;right:0;left:0;top:0;line-height:60px;}
+        .pg-header .menu{display:inline-block;
+                        padding:0 10px 0 10px;
+                        color:white;}
+        .pg-header .menu1{display:inline-block;
+                        padding:0 10px 0 10px;
+                        color:white;
+                        float:right;}
+        .pg-header .menu:hover{background-color:LightBlue2;}
+
+        .pg-content .menu{position:fixed;
+                          top:60px;
+                          left:0;
+                          bottom:0;
+                          width:200px;
+                          background-color:#B2DFEE;}
+        .pg-header .menu1{display:inline-block;
+                        padding:0 10px 0 10px;
+                        color:white;
+                        float:right;}
+        .pg-content .content{position:fixed;
+                             top:60px;
+                             left:200px;
+                             right:0;
+                             bottom:0;
+                             background-color:#E0EEE0;
+                             over-flow:auto;
+                             }
+    </style>
+</head>
+<body>
+      <div class="pg-header w" enctype='multi' >
+          <div  class="w">
+             <a class="menu1" >登录</a>
+
+             <a class="menu1" >注册</a>
+
+             <a class="menu">首页</a>
+             <a class="menu">蜜桃嘟</a>
+             <a class="menu">皮嘟嘟</a>
+
+          </div>
+      </div>
+      <div class="pg-content">
+          <div class="menu left">菜单</div>
+          <div class="content left">内容</div>
+      </div>
+      <div class="pg-footer">123456</div>
+</body>
+</html>
